@@ -125,3 +125,86 @@ button {
 .next:hover {
   background: rgb(183, 1, 1);
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main {
+    width: 95%;
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 14px;
+    align-self: center;
+  }
+
+  .question {
+    padding: 40px 20px;
+  }
+
+  .question p {
+    font-size: 18px;
+  }
+
+  .answer {
+    padding: 15px 15px;
+  }
+
+  button {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  main {
+    width: 95%;
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .question {
+    padding: 40px 20px;
+  }
+
+  .question p {
+    font-size: 18px;
+  }
+
+  .answer {
+    padding: 15px 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 95%;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .question {
+    padding: 40px 20px;
+  }
+
+  .question p {
+    font-size: 18px;
+  }
+
+  .answer {
+    padding: 15px 15px;
+  }
+}
